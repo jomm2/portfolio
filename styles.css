@@ -279,7 +279,8 @@ button {
 }
 .project-container {
 
-	height: 100%;
+	height: 80%;
+	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -1003,4 +1004,23 @@ section .set div:nth-child(21){
 		rotate(225deg);
 	}
 }
+@media (max-width: 768px) {
+    section .set div {
+        height: 100px;
+        width: 100px;
+    }
+}
+@media (max-width: 491px) {
+    section .set div {
+        height: 70px;
+        width: 70px;
+    }
+}
+@media (max-width: 411px) {
+	.social .social-item {
+		margin: 0 20px;
+
+	  }
+}
+
 
